@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>聯絡我們</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <img src="img/BG4.png" class="bg">
+    <img src="img/L2.png" class="sideimgL1">
+    <img src="img/L1.png" class="sideimgL2">
+    <img src="img/R1.png" class="sideimgR1">
+    <img src="img/R2.png" class="sideimgR2">
+
+    <div class="container">
+        <div class="block1 contactBG">
+            <div class="header">
+                <ul class="nav">
+                    <div class="title">遊戲</div>
+                    <a href="index.html" class="nav_child">
+                        <li> 首頁 </li>
+                    </a>
+                    <a href="news.html" class="nav_child">
+                        <li> 最新消息 </li>
+                    </a>
+                    <a href="contact.html" class="nav_child">
+                        <li> 聯絡我們 </li>
+                    </a>
+                    <a href="others.html" class="nav_child">
+                        <li> 其他資訊 </li>
+                    </a>
+                </ul>
+            </div>
+            <div class="formframe">
+                <form>
+                    <div class="row">
+                        <label for="address">您的聯絡方式：</label>
+                        <input type="text" id="address" name="address">
+                    </div>
+                    <div class="row">
+                        問題種類：
+                        <select id="type" name="type">
+                            <option value="BUG">遊戲漏洞通知</option>
+                            <option value="INFORM">版權問題</option>
+                            <option value="TALK">想跟我們說的話</option>
+                            <option value="OTHER">其他問題</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        請輸入您的問題：
+                        <textarea></textarea>
+                    </div>
+                    <input type="submit" value="送出">
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy;footer desu</p>
+    </footer>
+</body>
+
+</html>
