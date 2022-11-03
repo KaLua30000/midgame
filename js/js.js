@@ -8,10 +8,10 @@ $(document).ready(function () {
 
     //sideimg
     $("html").mousemove(function (e) {
-        $('.sideimgL1').css("left", e.pageX * 20 / w - 300);
-        $('.sideimgL2').css("left", e.pageX * 40 / w - 300);
-        $('.sideimgR1').css("right", -e.pageX * 20 / w - 200);
-        $('.sideimgR2').css("right", -e.pageX * 40 / w - 250);
+        $('.sideimgL1').css("left", e.pageX * 20 / w - w/5);
+        $('.sideimgL2').css("left", e.pageX * 40 / w - w/5);
+        $('.sideimgR1').css("right", -e.pageX * 20 / w - w/6);
+        $('.sideimgR2').css("right", -e.pageX * 40 / w - w/6);
         $(".bg").css("top", e.pageY * 0.005 - h / 10); $(".bg").css("left", e.pageX * 0.005 - w / 10);
         console.log(e.pageX + "," + e.pageY);
     })
@@ -70,6 +70,6 @@ $(document).ready(function () {
         $(".authorinfo").html("喜歡漢堡，尚未在遊戲業從業超過多年的準社畜<br>隨時準備為老闆獻出新鮮的肝<br>電話：3345678<br>ail：MOS7414@gmail.com ");
     });
     $(".a2").click(function (event) {
-        $(".authorinfo").html("待補");
+        $(".authorinfo").html("人沒有目標跟理想，那跟鹹魚有什麼兩樣");
     });
 });
